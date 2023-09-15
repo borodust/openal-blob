@@ -10,6 +10,8 @@
 
               ((:unix (:not :darwin) :x86-64) "libopenal.so" "x86_64/")
               ((:unix (:not :darwin) :x86) "libopenal.so" "x86/")
+              ((:unix (:not :darwin) :ppc64 :big-endian) "libopenal.so" "ppc64/")
+              ((:unix (:not :darwin) :ppc64 :little-endian) "libopenal.so" "ppc64le/")
 
               ((:windows :x86-64) "libopenal.dll" "x86_64/")
               ((:windows :x86) "libopenal.dll" "x86/")))
